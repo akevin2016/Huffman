@@ -11,8 +11,8 @@
 
 
 typedef struct bitV {
-	uint8_t *v;
-	uint64_t l;
+    uint8_t *v;
+    uint64_t l;
 } bitV;
 
 bitV *newVec(uint64_t);

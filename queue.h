@@ -12,9 +12,9 @@ typedef treeNode item;  // defined in huffman.h
 
 typedef struct queue
 {
-  uint32_t size;
-  uint32_t head, tail;
-  item *Q;
+    uint32_t size;
+    uint32_t head, tail;
+    item *Q;
 } queue;
 
 queue *newQueue(uint32_t);

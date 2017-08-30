@@ -22,9 +22,9 @@ typedef treeNode item;
 
 typedef struct stack
 {
-  uint32_t size;
-  uint32_t top;
-  item *entries;
+    uint32_t size;
+    uint32_t top;
+    item *entries;
 } stack;
 
 stack *newStack();           // Constructor
